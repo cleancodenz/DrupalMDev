@@ -39,5 +39,8 @@
  * Edit the lines below to define directory aliases. Remove the leading hash
  * signs to enable.
  */
-# $sites['devexample.com'] = 'example.com';
-# $sites['localhost.example'] = 'example.com';
+$sites['81.nzhost.localhost1'] = 'nz';
+$sites['81.auhost.localhost1'] = 'au';
+$sites['81.ushost.localhost1'] = 'us';
+
+ 
