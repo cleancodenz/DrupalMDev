@@ -212,8 +212,9 @@ $databases = array (
       'port' => '',
       'driver' => 'mysql',
       'prefix' => array(
-          'default'   => '',
-          'vairable'     => 'au_',
+          'default'  => '',
+          'vairable' => 'au_',
+          'system'   => 'au_',
       ),      
     ),
   ),

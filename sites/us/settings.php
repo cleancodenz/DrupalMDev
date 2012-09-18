@@ -214,6 +214,7 @@ $databases = array (
             'prefix' => array(
                 'default'   => '',
                 'vairable' => 'us_',
+                'system'   => 'us_',
             ),
         ),
     ),
