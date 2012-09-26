@@ -205,20 +205,18 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'drupal715m',
+      'database' => 'drupal715mnz',
       'username' => 'drupalmuser',
       'password' => '1234',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
-      'prefix' => array(
-          'default'  => '',
-          'vairable' => 'nz_',
-          'system'   => 'nz_',
-      ),      
+      'prefix' => '',
     ),
   ),
+ 
 );
+
 
 /**
  * Access control for update.php script.
@@ -348,7 +346,7 @@ ini_set('session.cookie_lifetime', 2000000);
  * - anonymous: Defines the human-readable name of anonymous users.
  * Remove the leading hash signs to enable.
  */
-$conf['site_name'] = 'nz at locahost1';
+# $conf['site_name'] = 'My Drupal site';
 # $conf['theme_default'] = 'garland';
 # $conf['anonymous'] = 'Visitor';
 

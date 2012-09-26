@@ -201,24 +201,22 @@
  * @endcode
  */
 $databases = array (
-    'default' =>
+  'default' => 
+  array (
+    'default' => 
     array (
-        'default' =>
-        array (
-            'database' => 'drupal715m',
-            'username' => 'drupalmuser',
-            'password' => '1234',
-            'host' => 'localhost',
-            'port' => '',
-            'driver' => 'mysql',
-            'prefix' => array(
-                'default'   => '',
-                'vairable' => 'us_',
-                'system'   => 'us_',
-            ),
-        ),
+      'database' => 'drupal715mus',
+      'username' => 'drupalmuser',
+      'password' => '1234',
+      'host' => 'localhost',
+      'port' => '',
+      'driver' => 'mysql',
+      'prefix' => '',
     ),
+  ),
+ 
 );
+
 
 /**
  * Access control for update.php script.
@@ -348,7 +346,7 @@ ini_set('session.cookie_lifetime', 2000000);
  * - anonymous: Defines the human-readable name of anonymous users.
  * Remove the leading hash signs to enable.
  */
-$conf['site_name'] = 'us at locahost1';
+# $conf['site_name'] = 'My Drupal site';
 # $conf['theme_default'] = 'garland';
 # $conf['anonymous'] = 'Visitor';
 
