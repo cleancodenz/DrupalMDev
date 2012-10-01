@@ -3,6 +3,7 @@
 /**
  * @file
  * Administration functions for locale.module.
+ * this line added to avoid win7 crashes
  */
 
 /**
