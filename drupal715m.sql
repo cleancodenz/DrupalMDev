@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 01, 2012 at 03:55 AM
+-- Generation Time: Oct 09, 2012 at 03:54 AM
 -- Server version: 5.5.20
 -- PHP Version: 5.3.10
 
@@ -1324,7 +1324,7 @@ CREATE TABLE IF NOT EXISTS `flood` (
   PRIMARY KEY (`fid`),
   KEY `allow` (`event`,`identifier`,`timestamp`),
   KEY `purge` (`expiration`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Flood controls the threshold of events, such as the...' AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Flood controls the threshold of events, such as the...' AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
